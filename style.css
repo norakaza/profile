@@ -1,0 +1,114 @@
+body{
+background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1{
+  font-size: 40px;
+  text-decoration: none;
+  margin: 0;
+  font-family: 'Raleway';
+  font-weight: lighter;
+  margin: 15px;
+}
+
+h2{
+  font-size: 30px;
+  text-decoration: none;
+  margin: 0;
+  font-family: 'Raleway';
+  font-weight: lighter;
+  margin: 20px;
+}
+
+h3{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+  margin: 5px 20px;
+  text-align: left;
+  color: #bb3939;
+}
+
+h4{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  margin: 5px 20px;
+  text-align: left;
+  color: #bb3939;
+}
+
+p{
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 16px;
+  margin: 20px;
+  text-align: left;
+}
+
+a{
+  text-decoration: none;
+  color: #04322e;
+}
+.container{
+  align: center;
+  margin: 0, auto;
+}
+
+.list{
+  padding: 0;
+}
+.card {
+  background: #edf0c7;                          /* White background */
+  padding: 30px;                              /* Internal space */
+  border-radius: 5px;                         /* Small radius */
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 10px auto;
+  width: 600px;
+}
+
+.list li{
+display: inline;
+font-size: 20px;
+margin: 0 10px;
+}
+
+.list li i{
+  font-size: 30px;
+  color: #ea5f2d;
+}
+
+.button{
+  background: #ea5f2d;
+  margin: 15px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: lighter;
+  color: #edf0c7;
+  letter-spacing: 1px;
+}
+
+.pics_with_description td {
+  padding-top: 0px;
+  display: table-cell;
+  vertical-align: top;
+}
+
+.button:hover {
+  background-color: #bb3939;
+}
+
+#profile_pic{
+  width: 100px;
+  border-radius: 50%;
+}
+
+@media(max-width: 900px) {
+  .container{
+    width: 100%;
+  }
+}
